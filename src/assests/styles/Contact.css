@@ -1,0 +1,34 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-item a {
+    color: #ffffff;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .contact-item a:hover {
+    transform: scale(1.2);
+    color: #0077b5; /* Change color on hover */
+  }
+  
+  .contact-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #6dc723;
+  }
+  
+  .contact-item svg {
+    cursor: pointer;
+  }
+  

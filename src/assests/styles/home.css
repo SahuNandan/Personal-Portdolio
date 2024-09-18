@@ -1,0 +1,149 @@
+/* Content in the center */
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+}
+
+/* Headings container arranged horizontally */
+.home-heading-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.home-heading-container span{
+  position: relative;
+  bottom: 15px;
+  font-size: 18px;
+ 
+}
+
+.home-heading {
+  font-size: 2rem;
+  color: #1eff00;
+  font-weight: 700;
+}
+
+
+/* Buttons styling */
+.home-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.home-btn {
+  padding: 10px 20px;
+  background-color: #22ff00;
+  text-decoration: none;
+  font-weight: 600;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-btn:hover{
+  background-color: #92f783;
+  
+}
+
+.home-profile-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 3%;
+  border-radius: 45%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #22ff00;
+
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .home-heading-container {
+    flex-direction: column; /* Stack headings vertically on small screens */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+  }
+
+  .home-heading {
+    font-size: 1.5rem;
+  }
+
+  .home-btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .home-profile-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Video popup overlay */
+.video-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+  /* Section Styles */
+  #home {
+    
+    text-align: center;
+  }
+  
+  #about {
+    text-align: center;
+  }
+  
+  #services {
+    text-align: center;
+  }
+  
+  #projects {
+    text-align: center;
+  }
+  
+  #blogs {
+    text-align: center;
+  }
+  
+  #certificates {
+    text-align: center;
+  }
+  
+  #contact {
+    text-align: center;
+  }
+  

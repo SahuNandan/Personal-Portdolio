@@ -1,0 +1,84 @@
+/* Projects.css */
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+.project-card {
+  background: #515950;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  margin: 20px;
+  max-width: 250px;
+  position: relative;
+
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.project-card::after,
+.project-card::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -1.5%;
+  left: -2%;
+  z-index: -2;
+  padding: 5px;
+  border-radius: 10px;
+  /* Use the custom property correctly */
+  background-image: conic-gradient(from var(--angle), transparent 50%, #22ff00, #32de18, #50cf3d);
+  animation: spin 8s linear infinite;
+  /* Ensure animation name matches keyframes */
+}
+
+.project-card::before {
+  filter: blur(2rem);
+  opacity: 0.5;
+}
+
+@keyframes spin {
+  from {
+    --angle: 0deg; /* Starting angle */
+  }
+  
+  to {
+    --angle: 360deg; /* Ending angle */
+  }
+}
+
+
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.project-title {
+  font-size: 1.5rem;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-top: 10px;
+}
