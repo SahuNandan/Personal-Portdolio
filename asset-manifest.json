@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/SahuNandan/Personal-Portfolio/static/css/main.df7296ec.css",
+    "main.js": "/SahuNandan/Personal-Portfolio/static/js/main.42024c39.js",
+    "static/js/453.1407b060.chunk.js": "/SahuNandan/Personal-Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/file_3.jpg": "/SahuNandan/Personal-Portfolio/static/media/file_3.2fd9df275cb34f43e332.jpg",
+    "static/media/IsroAIMLCertificate.JPG": "/SahuNandan/Personal-Portfolio/static/media/IsroAIMLCertificate.28610e84a23ef4d396fd.JPG",
+    "static/media/Data Visualization.jpeg": "/SahuNandan/Personal-Portfolio/static/media/Data Visualization.3d80f147aacb5469fe22.jpeg",
+    "static/media/Top10AI.jpeg": "/SahuNandan/Personal-Portfolio/static/media/Top10AI.73e51ae7c275cec93ee8.jpeg",
+    "static/media/mutiplebackground.jpg": "/SahuNandan/Personal-Portfolio/static/media/mutiplebackground.14cc203a4fbfcfa683b3.jpg",
+    "static/media/CreditCardReport.JPG": "/SahuNandan/Personal-Portfolio/static/media/CreditCardReport.acad7e7075178932ea59.JPG",
+    "static/media/profile2.jpg": "/SahuNandan/Personal-Portfolio/static/media/profile2.68c690c5ef076b94d711.jpg",
+    "static/media/StateMarketReport.JPG": "/SahuNandan/Personal-Portfolio/static/media/StateMarketReport.d993928d49c069090739.JPG",
+    "static/media/SalesDashboardReport.JPG": "/SahuNandan/Personal-Portfolio/static/media/SalesDashboardReport.ea2dabce17d28a7382a9.JPG",
+    "static/media/DashboardBlog.JPG": "/SahuNandan/Personal-Portfolio/static/media/DashboardBlog.ee577ea97b78308ee405.JPG",
+    "static/media/wscubeCertificate.JPG": "/SahuNandan/Personal-Portfolio/static/media/wscubeCertificate.234187abfaf27140da53.JPG",
+    "static/media/PersonalPortfolio.JPG": "/SahuNandan/Personal-Portfolio/static/media/PersonalPortfolio.854982fa2d3ec8e2de7c.JPG",
+    "static/media/RDataScienceCertificate.JPG": "/SahuNandan/Personal-Portfolio/static/media/RDataScienceCertificate.6bf4b8f6f0cd3a279ebc.JPG",
+    "static/media/Data Analyst.pdf": "/SahuNandan/Personal-Portfolio/static/media/Data Analyst.9eb47cb5461a3669a32d.pdf",
+    "index.html": "/SahuNandan/Personal-Portfolio/index.html",
+    "main.df7296ec.css.map": "/SahuNandan/Personal-Portfolio/static/css/main.df7296ec.css.map",
+    "main.42024c39.js.map": "/SahuNandan/Personal-Portfolio/static/js/main.42024c39.js.map",
+    "453.1407b060.chunk.js.map": "/SahuNandan/Personal-Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df7296ec.css",
+    "static/js/main.42024c39.js"
+  ]
+}
